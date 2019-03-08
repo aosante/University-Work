@@ -1,0 +1,2 @@
+com.microsoft.sqlserver.jdbc.SQLServerDriver
+jdbc:sqlserver://localhost:1433;DatabaseName=ALQUILERES;user=sa;password=reallyStrongPwd123

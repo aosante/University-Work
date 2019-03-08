@@ -1,0 +1,9 @@
+
+Cédula: 1, Nombre: 1, Apellido: 1, Dirección: 1, Teléfono: 1, Puesto: 1
+
+Cédula: 1, Nombre: 1, Apellido: 1, Dirección: 1, Teléfono: 1, Puesto: 1
+
+Cédula: 116550978, Nombre: Esteban, Apellido: Soto, Dirección: Alajuela, Teléfono: 8823-9089, Puesto: Encargado de cobro
+
+Cédula: 1, Nombre: Elisa, Apellido: Finol, Dirección: Alajuela, Teléfono: 8812-1212, Puesto: Jefe de cobro
+

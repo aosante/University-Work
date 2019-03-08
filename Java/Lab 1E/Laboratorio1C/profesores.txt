@@ -1,0 +1,9 @@
+
+Cédula: 112340756, Nombre: Luis, Apellido: Vargas, Dirección: Cartago, Teléfono: 8889-0909, Lugar De Trabajo: Universidad Cenfotec, Años De Experiencia: 9
+
+Cédula: 2, Nombre: Julian, Apellido: Perez, Dirección: Cartago, Teléfono: 8890-9191, Lugar De Trabajo: Cenfotec, Años De Experiencia: 21
+
+Cédula: 1, Nombre: Caca, Apellido: Pene, Dirección: dinde tu mama, Teléfono: 896391231, Lugar De Trabajo: sdfsdgs, Años De Experiencia: 10000
+
+Cédula: 1, Nombre: vds, Apellido: sdv, Dirección: sds, Teléfono: 231, Lugar De Trabajo: sfv, Años De Experiencia: 1
+

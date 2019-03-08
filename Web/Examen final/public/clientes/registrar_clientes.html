@@ -1,0 +1,119 @@
+<!DOCTYPE HYML>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Hoteles App - Registro de clientes</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="../landing.html">
+                <img src="../img/appLogo.png">
+            </a>
+        </div>
+        <nav>
+            <a href="../landing.html">Cerrar sesión</a>
+            <a href="listar_clientes.html">Listados</a>
+            <a href="#" id="registros">Registros</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccionCajas">
+            <a href="../hoteles/registrar_hoteles.html" id="opcion">Registro de hotel</a>
+            <div class="contenido">
+                <div class="titulo">
+                    <h2>Registro de cliente</h2>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="column">
+                            <div class="input">
+                                <label for="txtNombre">Primer nombre*</label>
+                                <input class="input" type="text" id="txtNombre" required>
+                            </div>
+                            <div class="input">
+                                <label for="txtApellido">Primer apellido*</label>
+                                <input class="input" type="text" id="txtApellido" required>
+                            </div>
+                            <div class="input">
+                                <label for="txtId">Cédula*</label>
+                                <input class="input" type="text" id="txtId" required>
+                            </div>
+                            <div class="input">
+                                <label for="txtEdad">Edad*</label>
+                                <input class="input" id="txtEdad" type="date" required>
+                            </div>
+                            <div class="input">
+                                <label for="txtPassword">Contraseña</label>
+                                <input type="password" id="txtPassword" class="input" required>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="input">
+                                <label for="txt2doNombre">Segundo nombre</label>
+                                <input class="input" type="text" id="txt2doNombre">
+                            </div>
+                            <div class="input">
+                                <label for="txt2doApellido">Segundo apellido</label>
+                                <input class="input" type="text" id="txt2doApellido">
+                            </div>
+                            <div class="input">
+                                <label for="txtCorreo">Correo electrónico*</label>
+                                <input class="input" type="email" id="txtCorreo" required>
+                            </div>
+                            <div class="input">
+                                <label for="">Teléfono*</label>
+                                <input class="input" type="text" id="txtTel" required>
+                            </div>
+                            <div class="input">
+                                <label for="txtConfirmPassword">Confirme la contraseña</label>
+                                <input type="password" id="txtConfirmPassword" class="input" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="boton" id="botonRegistrar">Registrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="iconos">
+            <ul class="footerSociaLinks">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- <script src="../js/localStorage.servicio.js"></script> -->
+    <script src="../js/servicios.js"></script>
+    <script src="clientes.service.js"></script>
+    <script src="js/registrar_clientes.controller.js"></script>
+</body>
+
+</html>

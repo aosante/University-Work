@@ -1,0 +1,387 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(243, 240, 240, 0.7);
+    background-image: url("../img/formwallpaper.jpg");
+}
+
+/*Inicio: estilos del header*/
+
+header {
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(252, 249, 249), rgb(113, 202, 112));
+    color: #fff;
+    padding: 30px 5px; 
+    font-size: 16px;
+    height: 80px;
+    border-bottom: 5px solid rgb(15, 133, 15);
+}
+
+
+header img {
+    position: relative;
+    bottom: 28px;
+    float: left;
+    width: 290px;
+    height: 92px;
+}
+
+
+header nav {
+    float: right;
+    width: 700px;  
+    height: 100%;  
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    float: right;
+    padding: 7px;
+    margin-right: 37px;
+    background-color: rgba(15, 133, 15, 0.45);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(3, 59, 3);
+}
+
+a:hover {
+    color: #fff;
+    padding: 12px;
+}
+
+
+/*Fin: estilos del header*/
+
+/*Inicio: estilos main*/
+
+main {
+    height: 100%;
+}
+
+.contenido {
+    border-radius: 10px;
+    position: relative;
+    height: 750px;
+    width: 82%;
+    margin: auto;
+    background-color: rgb(134, 133, 133, 0.39);
+    box-shadow: -1px 4px 4px 4px rgb(0, 0, 0, 0.65);
+    top: 60px;
+}
+
+.contenido .titulo {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgba(0, 128, 0, 0.6);
+    width: 100%;
+    height: 9%;
+    font-size: 32px;
+    padding: 13px;
+    padding-bottom: 20px;
+    color: rgba(0, 128, 0);
+    border-bottom: 2px solid rgb(2, 8, 0);
+}
+
+.contenido h2 {
+    position: relative;
+    /* top: 20px; */
+    right: 170px;
+    width: 50%;
+    text-align: left;
+    color: #fff;
+}
+
+#h2Modificar {
+    position: relative;
+    right: 160px;
+}
+
+/* Form */
+
+#opcion {
+    position: relative;
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    color: #fff;
+    left: 19%;
+    top: 32px;
+    padding: 9px 18px;
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+#opcion:hover {
+    color: rgba(0, 128, 0);
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 7px rgb(6, 180, 6);
+    border: 1px solid rgb(6, 180, 6);
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 580px;
+}
+
+.input {
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    float: left;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+input, select {
+    height: 28px;
+}
+
+div input:focus, button:hover{
+    outline: none;
+    box-shadow: 0 0 7px rgb(6, 180, 6);
+    border: 2px solid rgb(6, 180, 6);
+  }
+
+button {
+    position: relative;
+    bottom: 15px;
+    margin-right: 90px;
+    float: right;
+    height: 35px;
+    width: 140px;
+    border: 2px solid rgb(0, 128, 0);
+    color: rgb(0, 128, 0);
+    border-radius: 10px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: rgb(0, 128, 0);
+    font-size: 15px;
+}
+
+/* div .map-container {
+    height: 200px;
+    width: 200px;
+} */
+
+#map{
+    min-width: 200px; 
+    width: 60%;
+    height: 200px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/*Fin Form*/
+
+
+/* input:focus, select:focus, textarea:focus{
+    box-shadow: 0 0 5px #ef5b13;
+    border: 1px solid #ef5b13;
+  } */
+
+
+/*Fin: estilos main*/
+
+
+
+
+/*Inicio: estilos footer*/
+
+footer {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to top left, rgb(252, 249, 249), rgb(113, 202, 112));
+    color: #fff;
+    padding: 30px 5px; 
+    font-size: 10px;
+    height: 110px;
+    top: 30%;
+    border-top: 5px solid rgb(15, 133, 15);
+    text-align: center;
+}
+
+footer div {
+    position: relative;
+    width: 360px;
+    margin: auto;
+}
+
+
+footer .footerSociaLinks {
+    float: right;
+    /* display: inline-block; */
+  }
+  
+  footer .footerSociaLinks li {
+    display: inline-block;
+  }
+  
+  footer .footerSociaLinks a {
+    display: block;
+    font-size: 45px;
+    margin-right: 50px;
+    color: rgb(122, 119, 119);
+  }
+
+
+/*Fin: estilos footer*/
+
+/*Inicio: estilos tabla*/
+
+table {
+ width: 90%;
+ margin-top: 20px;
+ margin-left:5%;
+ border-collapse: collapse;
+}
+
+th {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    padding: 13px;
+    background-color: rgba(10, 107, 10, 0.80);
+    color: #fff;
+}
+
+td {
+    padding: 8px;
+    background-color: rgba(240, 240, 240, 0.65);
+    border-bottom: 1 px solid #fff;
+    color: #1e2630;
+    text-align: center;
+}
+
+.fa-edit {
+    color: black;
+}
+
+.fa-eye {
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(129, 127, 127, 0.65);
+}
+
+/*Fin: estilos tabla*/
+
+div .busqueda {
+    position: relative;
+    width: 650px;
+    float: right;
+    bottom: 35px;
+}
+
+.busqueda input {
+    margin-left: 25px;
+}
+
+.busqueda i {
+    position: relative;
+    top: 35px;
+    right: 8px;
+}
+
+.inputError {
+    border: 2px solid red;
+}
+
+
+
+.inputFotoPerfil {
+    position: relative;
+  }
+  
+  .inputFotoPerfil .buttonn {
+    border: none;
+    padding: 0px;
+    border-bottom: 2px solid;
+  }
+  
+  .inputFotoPerfil .cloudinary_fileupload {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .fotoPerfil img {
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  .hide {
+      visibility: hidden;
+  }
+
+  #map {
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+    opacity: 0.83;
+  }
+
+  #botonRegresar {
+      margin-top: 230px;
+  }
+
+  #botonRegresar a {
+      text-decoration: none;
+  }
+
+  #txtNombre {
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #033513;
+      position: relative;
+      top: 20px;
+      left: 15px;
+  }
+
+  .stars-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ccc;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #f8ce0b;
+}

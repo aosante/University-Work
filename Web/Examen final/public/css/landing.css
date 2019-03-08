@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Inicio: estilos del header*/
+
+header {
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(252, 249, 249), rgb(113, 202, 112));
+    color: #fff;
+    padding: 30px 5px; 
+    font-size: 16px;
+    height: 30px;
+    border-bottom: 5px solid rgb(15, 133, 15);
+}
+
+
+header img {
+    position: relative;
+    bottom: 28px;
+    float: left;
+    width: 290px;
+    height: 92px;
+}
+
+
+header nav {
+    float: right;
+    width: 700px;    
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    float: right;
+    padding: 7px;
+    margin-right: 37px;
+    background-color: rgba(15, 133, 15, 0.45);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(3, 59, 3);
+}
+
+a:hover {
+    color: #fff;
+    padding: 12px;
+}
+
+
+/*Fin: estilos del header*/
+
+/*Inicio: estilos main*/
+
+main {
+    height: 100%;
+}
+
+#bannerPrincipal {
+    min-height: 450px;
+    background-image: url("../img/fondo.jpg");
+    position: relative;
+    background-size: 100%;
+    border-bottom: 2.5px solid #fff;
+}
+
+
+#bannerPrincipal h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    /* color: rgb(58, 58, 58); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 23px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 59%;
+    text-shadow: 5px 5px 5px rgb(128, 127, 127);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+
+/*Inicio: estilos del segundo banner*/
+#seccionCajas {
+    text-align: center;
+    background-color: rgba(185, 184, 184, 0.4);
+    height: 70%;
+}
+
+#seccionCajas .lados {
+    position: relative;
+    bottom: 52px;
+}
+#cajasInfo {
+    position: relative;
+    width: 270px;
+    margin: 3px 22px;
+    padding: 16px;
+    display: inline-block;
+    height: 290px;
+    background-color: rgba(190, 204, 187, 0.38);
+    box-shadow: 10px 10px 10px #676867;
+    bottom: 10px;
+    border-radius: 10px;
+}
+
+#cajasInfo:hover {
+    background-color: rgba(167, 168, 167, 0.40);
+}
+
+#cajasInfo img {
+    font-size: 26px;
+    margin-bottom: 15px;
+    width: 133px;
+    height: 128px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 8px 8px 7px #a09c9c;
+}
+
+#cajasInfo h4 {
+    color: rgb(78, 76, 76);
+    line-height: 1.5;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#cajasInfo div {
+    margin-bottom: 15px;
+}
+
+#cajasInfo label {
+    display: inline-block;
+    width: 100px;
+}
+
+#cajasInfo input {
+    display: inline-block;
+    height: 30px;
+    width: 202px;
+}
+
+
+/*Fin: estilos del segundo banner*/
+
+/*Inicio: estilos footer*/
+
+footer {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to top left, rgb(252, 249, 249), rgb(113, 202, 112));
+    color: #fff;
+    padding: 30px 5px; 
+    font-size: 10px;
+    height: 53px;
+    top: 30%;
+    border-top: 5px solid rgb(15, 133, 15);
+    text-align: center;
+}
+
+footer div {
+    position: relative;
+    width: 360px;
+    margin: auto;
+}
+
+
+footer .footerSociaLinks {
+    float: right;
+    /* display: inline-block; */
+  }
+  
+  footer .footerSociaLinks li {
+    display: inline-block;
+  }
+  
+  footer .footerSociaLinks a {
+    display: block;
+    font-size: 45px;
+    margin-right: 50px;
+    color: rgb(122, 119, 119);
+  }
+
+
+
+
+
+
+
+/*Fin: estilos footer*/
+

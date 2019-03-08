@@ -1,0 +1,83 @@
+<!DOCTYPE HYML>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <title>Hoteles App - Inicio sesion</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="../landing.html">
+                <img src="../img/appLogo.png">
+            </a>
+        </div>
+        <nav>
+            <a href="../landing.html">Inicio</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccionCajas">
+
+            <div class="contenido">
+                <div class="titulo">
+                    <h2>Iniciar sesión</h2>
+                </div>
+                <form>
+                    <div class="input">
+                        <label for="txtCorreo">Correo:</label>
+                        <input type="email" id="txtCorreo" class="input">
+                    </div>
+                    <form>
+                        <div class="input">
+                            <label for="txtContrasena">Contraseña:</label>
+                            <input id="txtContrasena" type="email" name="contrasena" class="input">
+                        </div>
+
+                        <button class="boton" id="ingresar">Ingresar</button>
+                    </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="iconos">
+            <ul class="footerSociaLinks">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- <script src="../js/localStorage.servicio.js"></script> -->
+    <script src="../js/servicios.js"></script>
+    <script src="../clientes/clientes.service.js"></script>
+    <script src="inicio_sesion.service.js"></script>
+    <script src="inicio_sesion.controller.js"></script>
+    
+</body>
+
+</html>

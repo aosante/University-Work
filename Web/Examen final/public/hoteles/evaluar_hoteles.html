@@ -1,0 +1,164 @@
+<!DOCTYPE HYML>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_evaluar.css">
+    <title>Hoteles App - Ver de hoteles</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="../landing.html">
+                <img src="../img/appLogo.png">
+            </a>
+        </div>
+        <nav>
+            <a href="../landing.html">Cerrar sesión</a>
+            <a href="listar_hoteles.html">Listados</a>
+            <a href="#" id="registros">Registros</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccionCajas">
+            <a href="../clientes/registrar_clientes.html" id="opcion" class="hide">Registro de clientes</a>
+            <div class="contenido">
+                <div class="titulo">
+                    <h2>Ver y evaluar hotel</h2>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="column">
+                                <input class="input" type="text" id="txtNombre" placeholder="Nombre del hotel">
+                                <div class="container mt-5">
+                                        <div class="form-group">
+                                            <select class="form-control custom-select input" id="rubro-select">
+                                                <option value="0" disabled selected>Seleccione el rubro</option>
+                                                <option value="comida">Comida</option>
+                                                <option value="calidad_servicio">Calidiad del servicio</option>
+                                                <option value="habitaciones">Habitaciones</option>
+                                                <option value="infraestructura">Infraestructura</option>
+                                                <option value="limpieza">Limpieza</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Califique del 1 - 5" disabled>
+                                
+                                        </div>
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Rubro</th>
+                                                    <th>Calificación</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="comida">
+                                                    <td>Comida</td>
+                                                    <td>
+                                                        <div class="stars-outer">
+                                                            <div class="stars-inner"></div>
+                                                        </div>
+                                                        <span class="number-rating"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="calidad_servicio">
+                                                    <td>Calidad del servicio</td>
+                                                    <td>
+                                                        <div class="stars-outer">
+                                                            <div class="stars-inner"></div>
+                                                        </div>
+                                                        <span class="number-rating"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="habitaciones">
+                                                    <td>Habitaciones</td>
+                                                    <td>
+                                                        <div class="stars-outer">
+                                                            <div class="stars-inner"></div>
+                                                        </div>
+                                                        <span class="number-rating"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="infraestructura">
+                                                    <td>Infraestructura</td>
+                                                    <td>
+                                                        <div class="stars-outer">
+                                                            <div class="stars-inner"></div>
+                                                        </div>
+                                                        <span class="number-rating"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="limpieza">
+                                                    <td>Limpieza</td>
+                                                    <td>
+                                                        <div class="stars-outer">
+                                                            <div class="stars-inner"></div>
+                                                        </div>
+                                                        <span class="number-rating"></span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                          </div>
+                        <div class="column">
+                            <div id="map"></div>
+                            
+                    <button class="boton" id="botonRegresar"><a href="listar_hoteles.html">Regresar</a></button>
+            </div>
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="iconos">
+            <ul class="footerSociaLinks">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- <script src="https://cdn.rawgit.com/cloudinary/cloudinary_js/master/js/jquery.ui.widget.js"></script>
+  <script src="https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.iframe-transport.js"></script>
+  <script src="https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.fileupload.js"></script>
+  <script src="https://rawgit.com/cloudinary/cloudinary_js/master/js/jquery.cloudinary.js"></script> -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaSu9VPagI3qxasAFXp7hSi7RarKM07R0&callback=initMap">
+  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/servicios.js"></script>
+    <script src="hoteles.service.js"></script>
+    <script src="js/evaluar_hoteles.controller.js"></script>
+</body>
+
+</html>

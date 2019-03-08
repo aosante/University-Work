@@ -1,0 +1,234 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(243, 240, 240, 0.7);
+    background-image: url("../img/formwallpaper.jpg");
+}
+
+/*Inicio: estilos del header*/
+
+header {
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(252, 249, 249), rgb(113, 202, 112));
+    color: #fff;
+    padding: 30px 5px; 
+    font-size: 16px;
+    height: 30px;
+    border-bottom: 5px solid rgb(15, 133, 15);
+}
+
+
+header img {
+    position: relative;
+    bottom: 28px;
+    float: left;
+    width: 290px;
+    height: 92px;
+}
+
+
+header nav {
+    float: right;
+    width: 700px;  
+    height: 100%;  
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    float: right;
+    padding: 7px;
+    margin-right: 37px;
+    background-color: rgba(15, 133, 15, 0.45);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(3, 59, 3);
+}
+
+a:hover {
+    color: #fff;
+    padding: 12px;
+}
+
+
+/*Fin: estilos del header*/
+
+/*Inicio: estilos main*/
+
+main {
+    height: 100%;
+}
+
+.contenido {
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 52%;
+    margin: auto;
+    background-color: rgb(134, 133, 133, 0.39);
+    box-shadow: -1px 4px 4px 4px rgb(0, 0, 0, 0.65);
+}
+
+.contenido .titulo {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgba(0, 128, 0, 0.6);
+    width: 96.5%;
+    height: 7%;
+    font-size: 27px;
+    padding: 13px;
+    padding-bottom: 20px;
+    color: rgba(0, 128, 0);
+    border-bottom: 2px solid rgb(238, 238, 238);
+}
+
+.contenido h2 {
+    position: relative;
+    top: 6px;
+    left: 230px;
+    width: 80%;
+    text-align: left;
+    color: #fff;
+}
+
+#h2Modificar {
+    position: relative;
+    right: 160px;
+}
+
+/* Form */
+
+#opcion {
+    position: relative;
+    text-decoration: none;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    color: #fff;
+    left: 19%;
+    top: 32px;
+    padding: 9px 18px;
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+#opcion:hover {
+    color: rgba(0, 128, 0);
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 7px rgb(6, 180, 6);
+    border: 1px solid rgb(6, 180, 6);
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 580px;
+}
+
+.input {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    padding: 10px;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    float: left;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+input {
+    height: 28px;
+}
+
+div input:focus, button:hover{
+    outline: none;
+    box-shadow: 0 0 7px rgb(6, 180, 6);
+    border: 2px solid rgb(6, 180, 6);
+  }
+
+#ingresar {
+    position: relative;
+    bottom: 15px;
+    left: 260px;
+    top: 20px;
+    height: 35px;
+    width: 140px;
+    border: 2px solid rgb(0, 128, 0);
+    color: rgb(0, 128, 0);
+    border-radius: 10px;
+}
+
+#ingresar:hover {
+    color: #fff;
+    background-color: rgb(0, 128, 0);
+    font-size: 15px;
+}
+
+
+
+/*Fin Form*/
+
+
+/* input:focus, select:focus, textarea:focus{
+    box-shadow: 0 0 5px #ef5b13;
+    border: 1px solid #ef5b13;
+  } */
+
+
+/*Fin: estilos main*/
+
+
+
+
+/*Inicio: estilos footer*/
+
+footer {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to top left, rgb(252, 249, 249), rgb(113, 202, 112));
+    color: #fff;
+    padding: 30px 5px; 
+    font-size: 10px;
+    height: 53px;
+    top: 30%;
+    border-top: 5px solid rgb(15, 133, 15);
+    text-align: center;
+}
+
+footer div {
+    position: relative;
+    width: 360px;
+    margin: auto;
+}
+
+
+footer .footerSociaLinks {
+    float: right;
+    /* display: inline-block; */
+  }
+  
+  footer .footerSociaLinks li {
+    display: inline-block;
+  }
+  
+  footer .footerSociaLinks a {
+    display: block;
+    font-size: 45px;
+    margin-right: 50px;
+    color: rgb(122, 119, 119);
+  }
+
+
+/*Fin: estilos footer*/
+
+
+
